@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 测试与覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 数据（持久化运行时产物，不入库）
+data/evidence/*
+data/episodes/*
+data/memory/*
+data/narratives/*
+data/beliefs/*
+data/relationships/*
+data/self_snapshots/*
+!data/**/.gitkeep
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
